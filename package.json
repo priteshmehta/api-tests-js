@@ -1,0 +1,24 @@
+{
+  "name": "api-tests",
+  "version": "1.0.0",
+  "description": "Api test Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://priteshmehta@github.com/priteshmehta/api-tests-js.git"
+  },
+  "author": "Pritesh Mehta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priteshmehta/api-tests-js/issues"
+  },
+  "homepage": "https://github.com/priteshmehta/api-tests-js#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.2.0"
+  }
+}
